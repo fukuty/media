@@ -1,0 +1,2 @@
+class SeosController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class ImportantController < ApplicationController
+end

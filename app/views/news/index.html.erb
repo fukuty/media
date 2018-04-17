@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Css Cafe</title>
+    <link rel="stylesheet" href="./assets/stylesheets/application.scss">
+</head>
+<body>
+
+<div id="wrapper"class="SpMenu__wrapper">
+    <header class="Header l-column">
+        <div class="Header__head">
+            <h1 class="logo">Media Manager</h1>
+        </div>
+        <nav class="Header__body">
+            <div><a class="Menu__item" href="#">Services</a></div>
+            <div><a class="Menu__item" href="#">Work</a></div>
+            <div><a class="Menu__item" href="#">About us</a></div>
+            <div><a class="Menu__item" href="#">Blog</a></div>
+            <div><a class="Menu__item" href="#">Contact</a></div>
+        </nav>
+    </header>
+
+    <section class="Section l-column">
+        <h2 class="sectionLabel">News</h2>
+        <ol class="NewsList">
+            <li class="NewsList__item">
+                <time class="NewsList__head" datatime="2016-10-12">2016.10.12</time>
+                <span class="NewsList__body">「かぼちゃタルト」「ヘーゼルナッツラテ」「ストロベリーブラウニー」「ハニーソイラテ」「たっぷりチーズときのこのパニーニ」新発売。</span>
+            </li>
+        </ol>
+    </section>
+
+    <footer class="Footer">
+    </footer>
+
+</div>
+
+<script src="./assets/js/main.min.js"></script>
+<script>
+    imageSlide('Slide', 2);
+</script>
+</body>
+</html>
